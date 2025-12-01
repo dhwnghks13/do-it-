@@ -1,1 +1,28 @@
-# do-it-
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>오토마우스 다운로드</title>
+</head>
+<body>
+
+    <h1 style="text-align: center; margin-top: 50px;">
+        다운로드가 곧 시작됩니다...
+    </h1>
+    
+    <p style="text-align: center;">
+        만약 다운로드가 안 되면 
+        <a href="automousei_v1.1.1_simple.exe" download>여기</a>
+        를 클릭하세요.
+    </p>
+
+    <script>
+        // 1초(1000ms) 뒤에 다운로드 주소로 이동!
+        setTimeout(function() {
+            // ⭐ 중요: 여기도 파일 이름을 똑같이 적어!
+            window.location.href = "automousei_v1.1.1_simple.exe";
+        }, 1000);
+    </script>
+
+</body>
+</html>
